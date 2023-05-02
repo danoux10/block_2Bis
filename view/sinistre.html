@@ -1,0 +1,26 @@
+<section id="sinistre-content">
+	<section id="form-info">
+		<form action="controller/function/sinistre.php?task=sinistre" method="post" id="sinistre-form" enctype="multipart/form-data">
+			<fieldset>
+				<legend>Déclaration de sinistre</legend>
+
+				<span class="form-element">
+					<label for="photo" class="btn btn-file">Sélectionner Photos</label>
+					<input type="file" class="hiden" accept=".png, .jpg, .jpeg" name="photo[]" id="photo" onchange="showPicture()" multiple required>
+				</span>
+
+				<span class="button-content">
+					<button type="submit" class="btn btn-valid">Valider</button>
+					<button type="reset" class="btn btn-cancel">Annuler</button>
+				</span>
+			</fieldset>
+		</form>
+		<fieldset id="depanneur-content">
+			<legend>Dépanneur dans la zone</legend>
+			<div id="view-depanneur"></div>
+		</fieldset>
+	</section>
+	<fieldset id="picture-content">
+		<legend>Image sélectionner</legend>
+	</fieldset>
+</section>
