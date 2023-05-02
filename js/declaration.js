@@ -1,5 +1,3 @@
-console.log('declaration');
-
 //link btn nav
 const navBtnLogin = document.getElementById('btn-login');
 const btnRegister = document.getElementById('btn-register');
@@ -21,10 +19,11 @@ const sinistre = document.getElementById('sinistre-form');
 
 //link response form
 const registerResponse = document.getElementById('register-response');
+const loginResponse = document.getElementById('login-response');
 
 //link form element
 const inputsRegister = document.querySelectorAll('#register-form input');
-
+const inputsLogin = document.querySelectorAll('#login-form input')
 const picture= document.getElementById('photo');
 
 //link bloc

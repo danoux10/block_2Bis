@@ -19,6 +19,7 @@ fieldset {
 }
 
 legend {
+  background: #fff;
   text-align: center;
   border: 1px solid #000;
   border-top: none;
@@ -94,7 +95,7 @@ main #home-page {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-main #home-page.hiden {
+main #home-page.hidden {
   display: none;
 }
 main #home-page #logo-home {

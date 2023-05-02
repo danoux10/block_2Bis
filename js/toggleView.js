@@ -38,6 +38,15 @@ function hiddenDeconnexion(){
   deconnexion.classList.add('hidden');
 }
 
+function showSinistre(){
+  navBtnLogin.classList.add('hidden');
+  btnRegister.classList.add('hidden');
+  homePage.classList.add('hidden');
+
+  btnDeconnexion.classList.remove('hidden');
+  sinistreContent.classList.remove('hidden');
+}
+
 
 //link affect function show
 btnRegister.addEventListener('click',showRegister);

@@ -24,7 +24,7 @@ function registerSubmit(event){
                     inputsRegister.forEach(function(input){
                         input.value ="";
                     });
-                },5000);
+                },2500);
             }
             if(response.error == 1){
                 registerResponse.classList.add('error');
