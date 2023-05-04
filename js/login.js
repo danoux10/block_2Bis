@@ -25,7 +25,7 @@ function loginSubmit(event){
             input.value ="";
           });
           showSinistre();
-        },1500);
+        },1000);
       }
       if(result.error == 1){
         loginResponse.classList.add('error');

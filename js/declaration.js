@@ -7,7 +7,7 @@ const btnDeconnexion = document.getElementById('btn-deconnexion');
 const closeRegister = document.getElementById('close-register');
 const closeLogin = document.getElementById('close-login');
 const closeDeconnexion = document.getElementById('close-deconnexion');
-
+const cancelDeconnexion = document.getElementById('cancel-deconnexion');
 //link btn home page
 const homeBtnLogin = document.getElementById('btn-body-connexion');
 

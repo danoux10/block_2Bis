@@ -47,6 +47,18 @@ function showSinistre(){
   sinistreContent.classList.remove('hidden');
 }
 
+function showHome(){
+  navBtnLogin.classList.remove('hidden');
+  btnRegister.classList.remove('hidden');
+  homePage.classList.remove('hidden');
+
+  btnDeconnexion.classList.add('hidden');
+  sinistreContent.classList.add('hidden');
+
+  pictureContent.innerHTML = "";
+  viewDepanneur.innerHTML = '';
+}
+
 
 //link affect function show
 btnRegister.addEventListener('click',showRegister);
@@ -58,3 +70,4 @@ btnDeconnexion.addEventListener('click',showDeconnexion);
 closeRegister.addEventListener('click',hiddenRegister);
 closeLogin.addEventListener('click',hiddenLogin);
 closeDeconnexion.addEventListener('click',hiddenDeconnexion);
+cancelDeconnexion.addEventListener('click',hiddenDeconnexion);
